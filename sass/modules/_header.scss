@@ -1,0 +1,44 @@
+.navNav{
+    background-color: #060047;
+    .logBrandDiv{
+        font-family: $protest;
+        text-decoration: none;
+        .brand{
+            font-size: 2rem;
+            color: #E90064;
+        }
+    }
+    .navbar-collapse{
+        display: flex;
+        justify-content: end;
+        width: 100vw;
+        margin-left: auto;
+        float: right;
+        ul{
+            .nav-item{
+                font-family: $francois;
+                .nav-link{
+                    font-size: 1.2rem;
+                    color: #E90064;
+                    &:hover{
+                        font-weight: bold;
+                        color: white;
+                    }
+                }
+                .dropdown-menu{
+                    background-color: #060047;
+                    .dropdown-item{
+                        color: #E90064;
+                        &:hover{
+                            color: #060047;
+                            font-weight: bold;
+                        }
+                    }
+                    .dropdown-divider{
+                        border: 0.1px solid whitesmoke;
+                    }
+                }
+            }
+        }
+    }
+}

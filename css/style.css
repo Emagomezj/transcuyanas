@@ -1,0 +1,174 @@
+main {
+  background: linear-gradient(to bottom right, #FAA916, #B7D7E8);
+  min-height: 85vh;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none; /* width of the entire scrollbar */
+}
+
+.navNav {
+  background-color: #060047;
+}
+.navNav .logBrandDiv {
+  font-family: "Protest Strike", sans-serif;
+  text-decoration: none;
+}
+.navNav .logBrandDiv .brand {
+  font-size: 2rem;
+  color: #E90064;
+}
+.navNav .navbar-collapse {
+  display: flex;
+  justify-content: end;
+  width: 100vw;
+  margin-left: auto;
+  float: right;
+}
+.navNav .navbar-collapse ul .nav-item {
+  font-family: "Francois One", sans-serif;
+}
+.navNav .navbar-collapse ul .nav-item .nav-link {
+  font-size: 1.2rem;
+  color: #E90064;
+}
+.navNav .navbar-collapse ul .nav-item .nav-link:hover {
+  font-weight: bold;
+  color: white;
+}
+.navNav .navbar-collapse ul .nav-item .dropdown-menu {
+  background-color: #060047;
+}
+.navNav .navbar-collapse ul .nav-item .dropdown-menu .dropdown-item {
+  color: #E90064;
+}
+.navNav .navbar-collapse ul .nav-item .dropdown-menu .dropdown-item:hover {
+  color: #060047;
+  font-weight: bold;
+}
+.navNav .navbar-collapse ul .nav-item .dropdown-menu .dropdown-divider {
+  border: 0.1px solid whitesmoke;
+}
+
+.contactoMain .contactoH1 {
+  padding-top: 20px;
+  font-family: "Francois One", sans-serif;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #060047;
+  text-align: center;
+}
+
+footer {
+  background-color: #060047;
+  display: flex;
+  vertical-align: bottom;
+  align-items: center;
+  justify-content: center;
+  color: #E90064;
+  justify-content: space-around;
+}
+footer .footerBlock {
+  display: flex;
+  margin: auto;
+  border-top: black;
+  padding: 10px 20px;
+  vertical-align: top;
+  justify-content: center;
+}
+footer .footerBlock a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+footer .footerBlock a img {
+  display: flex;
+  height: 45px;
+  vertical-align: middle;
+}
+footer .footerBlock a h4 {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #E90064;
+  transition: 0.2s all ease-in;
+  font-family: "Protest Strike", sans-serif;
+  vertical-align: middle;
+}
+footer .footerBlock ul {
+  text-align: center;
+}
+footer .footerBlock ul h3 {
+  color: white;
+  text-align: center;
+}
+footer .footerBlock ul li {
+  list-style: none;
+}
+footer .footerBlock ul .aFooter {
+  text-decoration: none;
+  color: white;
+  transition: 0.2s all ease-in;
+}
+footer .footerBlock ul .aFooter:hover {
+  color: #E90064;
+  font-weight: bold;
+}
+footer .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .social .socialIcon {
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 0px 10px 0px 10px;
+  transition: all 0.2s ease-in;
+}
+footer .social .ig i {
+  color: white;
+  transition: all 0.2s ease-in;
+}
+footer .social .ig i:hover {
+  color: #d62976;
+  font-size: 2.5rem;
+}
+footer .social .x i {
+  color: white;
+  transition: all 0.2s ease-in;
+}
+footer .social .x i:hover {
+  font-size: 2.5rem;
+  color: #00acee;
+}
+footer .social .yt i {
+  color: white;
+  transition: all 0.2s ease-in;
+}
+footer .social .yt i:hover {
+  color: red;
+  font-size: 2.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
