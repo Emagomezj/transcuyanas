@@ -1,9 +1,11 @@
-Paleta de colores:
+**************** Paleta de colores ******************
+
 #060047 Fondo Header y Footer | Color Principal
 #E90064 Fuccia | Color Principal
 #B7D7E8 Gris azulado | Background Main
 #FAA916 Naranja Claro | Background Main
 
+******************* Tipografías *********************
 
 font-family: "Protest Strike", sans-serif;
 font-family: "Francois One", sans-serif;
