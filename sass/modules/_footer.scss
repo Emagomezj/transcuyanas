@@ -73,13 +73,26 @@ footer{
                 }
             }
         }
-        .x{
+        .ttk{
             i{
                 color: white;
                 transition: all 0.2s ease-in;
                 &:hover{
                     font-size: 2.5rem;
-                    color: #00acee;
+                    color: black;
+                    text-shadow: 
+                    -6px -6px 0 #00F2FE,  
+                     -5px -5px 0 #00F2FE,
+                     -4px -4px 0 #00F2FE,
+                     -3px -3px 0 #00F2FE,
+                     -2px -2px 0 #00F2FE,  
+                     -1px -1px 0 #00F2FE,
+                      1px -1px 0 #FD0973,
+                      2px -2px 0 #FD0973,  
+                      3px -3px 0 #FD0973,
+                      4px -4px 0 #FD0973,
+                      5px -5px 0 #FD0973,
+                      6px -6px 0 #FD0973; 
                 }
             }
         }

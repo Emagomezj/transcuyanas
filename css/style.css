@@ -156,13 +156,14 @@ footer .social .ig i:hover {
   color: #d62976;
   font-size: 2.5rem;
 }
-footer .social .x i {
+footer .social .ttk i {
   color: white;
   transition: all 0.2s ease-in;
 }
-footer .social .x i:hover {
+footer .social .ttk i:hover {
   font-size: 2.5rem;
-  color: #00acee;
+  color: black;
+  text-shadow: -6px -6px 0 #00F2FE, -5px -5px 0 #00F2FE, -4px -4px 0 #00F2FE, -3px -3px 0 #00F2FE, -2px -2px 0 #00F2FE, -1px -1px 0 #00F2FE, 1px -1px 0 #FD0973, 2px -2px 0 #FD0973, 3px -3px 0 #FD0973, 4px -4px 0 #FD0973, 5px -5px 0 #FD0973, 6px -6px 0 #FD0973;
 }
 footer .social .yt i {
   color: white;
@@ -191,12 +192,12 @@ footer .social .yt i:hover {
 }
 .indexMain .divBanner .epigBan {
   margin-top: -35px;
-  width: 70vw;
+  width: 80vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(17, 17, 17);
+  background-color: rgb(2, 2, 2);
   border-radius: 10px;
 }
 .indexMain .divBanner .epigBan .tituloBan {
@@ -282,7 +283,8 @@ footer .social .yt i:hover {
   text-shadow: 1px 1px 3px #000000;
 }
 .multMain .divSali .divCar {
-  margin-top: 20px;
+  margin-top: 40px;
+  padding-bottom: 55px;
   align-items: center;
   justify-content: center;
 }
