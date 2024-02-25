@@ -1,0 +1,57 @@
+.indexMain{
+    .divBanner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .divBan{
+            display: flex;
+            justify-content: center;
+            padding-top: 20px;
+            img{
+                display: flex;
+                width: 80vw;
+                border-radius: 10px;
+            }
+        }
+        .epigBan{
+            margin-top: -35px;
+            width: 70vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(17, 17, 17);
+            border-radius: 10px;
+            .tituloBan{
+                display: flex;
+                text-align: center;
+                padding-top: 10px;
+                font-family: $protest;
+                font-size: 2rem;
+            }
+            .descBan{
+                display: flex;
+                text-align: center;
+                color: white;
+                padding-top: 10px;
+                padding-right: 20px;
+                padding-left: 20px;
+                padding-bottom: 20px;
+            }
+        }
+    }
+    .divElenco{
+        margin-top: 40px;
+        .tituloElenco{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-family: $francois;
+            font-size: 2rem;
+            color: white;
+            text-shadow: 1px 1px 3px #000000
+        }
+    }
+}

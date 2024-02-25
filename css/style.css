@@ -1,5 +1,7 @@
-main {
+body {
   background: linear-gradient(to bottom right, #E90064, #FAA916);
+}
+body main {
   min-height: 85vh;
 }
 
@@ -169,6 +171,131 @@ footer .social .yt i {
 footer .social .yt i:hover {
   color: red;
   font-size: 2.5rem;
+}
+
+.indexMain .divBanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.indexMain .divBanner .divBan {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.indexMain .divBanner .divBan img {
+  display: flex;
+  width: 80vw;
+  border-radius: 10px;
+}
+.indexMain .divBanner .epigBan {
+  margin-top: -35px;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(17, 17, 17);
+  border-radius: 10px;
+}
+.indexMain .divBanner .epigBan .tituloBan {
+  display: flex;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Protest Strike", sans-serif;
+  font-size: 2rem;
+}
+.indexMain .divBanner .epigBan .descBan {
+  display: flex;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.indexMain .divElenco {
+  margin-top: 40px;
+}
+.indexMain .divElenco .tituloElenco {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Francois One", sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 1px 1px 3px #000000;
+}
+
+.multMain h1 {
+  display: flex;
+  margin-top: 20px;
+  font-family: "Francois One", sans-serif;
+  font-size: 2rem;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 3px #000000;
+}
+.multMain .divObra {
+  margin-top: 30px;
+}
+.multMain .divObra h2 {
+  justify-content: center;
+  text-align: center;
+  font-size: 1.7rem;
+  color: white;
+  text-shadow: 1px 1px 3px #000000;
+}
+.multMain .divObra .divVid iframe {
+  width: 900px;
+  height: 506px;
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.multMain .divSali {
+  margin-top: 30px;
+  background-color: rgb(17, 17, 17);
+  padding-top: 20px;
+}
+.multMain .divSali h2 {
+  justify-content: center;
+  text-align: center;
+  font-size: 1.7rem;
+  color: white;
+  text-shadow: 1px 1px 3px #000000;
+}
+.multMain .divSali .descSali {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.multMain .divSali .descSali p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  color: white;
+  text-shadow: 1px 1px 3px #000000;
+}
+.multMain .divSali .divCar {
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.multMain .divSali .divCar .carousel-item {
+  align-items: center;
+  justify-content: center;
+}
+.multMain .divSali .divCar .carousel-item iframe {
+  width: 900px;
+  height: 506px;
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

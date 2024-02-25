@@ -1,0 +1,74 @@
+.multMain{
+    h1{
+        display: flex;
+        margin-top: 20px;
+        font-family: $francois;
+        font-size: 2rem;
+        justify-content: center;
+        color: white;
+        text-shadow: 1px 1px 3px #000000
+    }
+    .divObra{
+        margin-top: 30px;
+        h2{
+            justify-content: center;
+            text-align: center;
+            font-size: 1.7rem;
+            color: white;
+            text-shadow: 1px 1px 3px #000000
+        }
+        .divVid{
+            iframe{
+                width: 900px;
+                height: 506px;
+                display: block;
+                margin: auto;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .divSali{
+        margin-top: 30px;
+        background-color: rgb(17, 17, 17);
+        padding-top: 20px;
+        h2{
+            justify-content: center;
+            text-align: center;
+            font-size: 1.7rem;
+            color: white;
+            text-shadow: 1px 1px 3px #000000
+        }
+        .descSali{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p{
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                width: 800px;
+                color: #ffff;
+                text-shadow: 1px 1px 3px #000000
+            }
+        }
+        .divCar{
+            margin-top: 20px;
+            align-items: center;
+            justify-content: center;
+            .carousel-item{
+                align-items: center;
+                justify-content: center;
+                iframe{
+                    width: 900px;
+                    height: 506px;
+                    display: block;
+                    margin: auto;
+                    margin-bottom: 30px;
+                }    
+            }
+        }
+    }
+}
+
+
