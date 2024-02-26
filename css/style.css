@@ -294,7 +294,8 @@ footer .social .yt i:hover {
 .multMain .divObra h2 {
   justify-content: center;
   text-align: center;
-  font-size: 1.7rem;
+  font-family: "Just Another Hand", cursive;
+  font-size: 3.5rem;
   color: white;
   text-shadow: 1px 1px 3px #000000;
 }
@@ -313,7 +314,8 @@ footer .social .yt i:hover {
 .multMain .divSali h2 {
   justify-content: center;
   text-align: center;
-  font-size: 1.7rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.2rem;
   color: white;
   text-shadow: 1px 1px 3px #000000;
 }

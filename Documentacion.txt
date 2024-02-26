@@ -9,6 +9,8 @@
 
 font-family: "Protest Strike", sans-serif; | $protest
 font-family: "Francois One", sans-serif; | $francois
+font-family: "Just Another Hand", cursive; | $just
+font-family: "Bebas Neue", sans-serif; | $bebas
 
 ***************** Dropdown Li NavBar ****************
 
