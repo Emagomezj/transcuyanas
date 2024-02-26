@@ -7,8 +7,8 @@
 
 ******************* Tipografías *********************
 
-font-family: "Protest Strike", sans-serif;
-font-family: "Francois One", sans-serif;
+font-family: "Protest Strike", sans-serif; | $protest
+font-family: "Francois One", sans-serif; | $francois
 
 ***************** Dropdown Li NavBar ****************
 

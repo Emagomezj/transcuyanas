@@ -122,7 +122,8 @@ footer .footerBlock ul {
   text-align: center;
 }
 footer .footerBlock ul h3 {
-  color: white;
+  color: #E90064;
+  font-family: "Francois One", sans-serif;
   text-align: center;
 }
 footer .footerBlock ul li {
