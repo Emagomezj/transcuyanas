@@ -216,16 +216,64 @@ footer .social .yt i:hover {
   padding-left: 20px;
   padding-bottom: 20px;
 }
-.indexMain .divElenco {
+.indexMain .divElencoPpal {
   margin-top: 40px;
+  background-color: rgb(17, 17, 17);
+  padding-top: 5px;
 }
-.indexMain .divElenco .tituloElenco {
+.indexMain .divElencoPpal .tituloElenco {
+  margin-top: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   font-family: "Francois One", sans-serif;
   font-size: 2rem;
+  color: #E90064;
+  text-shadow: 1px 1px 3px #fff, 0.5px 0.5px 1.5px #fa69a8;
+}
+.indexMain .divElencoPpal .divElenco {
+  display: flex;
+}
+.indexMain .divElencoPpal .divElenco .divProfile {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 20vw;
+  align-items: center;
+  justify-content: center;
+}
+.indexMain .divElencoPpal .divElenco .divProfile .aProfile {
+  text-decoration: none;
+}
+.indexMain .divElencoPpal .divElenco .divProfile .aProfile .imgProfile {
+  height: 120px;
+  border-radius: 50%;
+}
+.indexMain .divElencoPpal .divElenco .divProfile .aProfile .nameProfile {
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: 1px 1px 3px #000000;
+}
+.indexMain .divElencoPpal .divStaff {
+  margin-top: 30px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.indexMain .divElencoPpal .divStaff .aProfile {
+  text-decoration: none;
+}
+.indexMain .divElencoPpal .divStaff .aProfile .imgProfile {
+  height: 100px;
+  border-radius: 50%;
+}
+.indexMain .divElencoPpal .divStaff .aProfile .nameProfile {
+  text-align: center;
+  font-size: 1.2rem;
   color: white;
   text-shadow: 1px 1px 3px #000000;
 }

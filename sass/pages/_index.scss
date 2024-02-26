@@ -41,17 +41,66 @@
             }
         }
     }
-    .divElenco{
+    .divElencoPpal{
         margin-top: 40px;
+        background-color: rgb(17, 17, 17);
+        padding-top: 5px;
         .tituloElenco{
+            margin-top: 40px;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
             font-family: $francois;
             font-size: 2rem;
-            color: white;
-            text-shadow: 1px 1px 3px #000000
+            color: #E90064;
+            text-shadow: 1px 1px 3px #fff,
+            0.5px 0.5px 1.5px #fa69a8;
+        }
+        .divElenco{
+            display: flex;
+            .divProfile{
+                display: flex;
+                margin-top: 30px;
+                margin-bottom: 40px;
+                width: 20vw;
+                align-items: center;
+                justify-content: center;
+                .aProfile{
+                    text-decoration: none;
+                    .imgProfile{
+                        height: 120px;
+                        border-radius: 50%;
+                    }
+                    .nameProfile{
+                        text-align: center;
+                        font-size: 1.2rem;
+                        color: white;
+                        text-shadow: 1px 1px 3px #000000
+                    }
+                }
+            }
+        }
+        .divStaff{
+            margin-top: 30px;
+            padding-bottom: 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            .aProfile{
+                text-decoration: none;
+                .imgProfile{
+                    height: 100px;
+                    border-radius: 50%;
+                }
+                .nameProfile{
+                    text-align: center;
+                    font-size: 1.2rem;
+                    color: white;
+                    text-shadow: 1px 1px 3px #000000
+                }
+            }
         }
     }
 }
