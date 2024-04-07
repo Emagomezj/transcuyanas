@@ -54,7 +54,7 @@
     "rol": "actriz"
   },
   {
-    "id": 6,
+    "id": 7,
     "nickname": "Jannet",
     "nombre": "Jannet",
     "apellido": "n/s",
@@ -63,7 +63,7 @@
     "rol": "actriz"
   },
   {
-    "id": 7,
+    "id": 8,
     "nickname": "Agus",
     "nombre": "Agustina",
     "apellido": "Morales López",
@@ -72,7 +72,7 @@
     "rol": "staff"
   },
   {
-    "id": 8,
+    "id": 9,
     "nickname": "Darío",
     "nombre": "Darío",
     "apellido": "n/s",
@@ -81,7 +81,7 @@
     "rol": "staff"
   },
   {
-    "id": 9,
+    "id": 10,
     "nickname": "Alguien más",
     "nombre": "-",
     "apellido": "-",
