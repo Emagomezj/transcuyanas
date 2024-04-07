@@ -15,6 +15,13 @@
         margin-left: auto;
         float: right;
         ul{
+            .dropdown{
+                &:hover{
+                    .dropdown-menu{
+                        display: block;
+                    }
+                }
+            }
             .nav-item{
                 font-family: $francois;
                 .nav-link{

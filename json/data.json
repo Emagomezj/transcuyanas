@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "nickname": "Victoria",
+    "nombre": "Victoria",
+    "apellido": "n/s",
+    "profile_pic": "../img/no-foto_profile.png",
+    "resume_text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus numquam provident esse ab minus in. Porro est maxime inventore necessitatibus, vitae rem corrupti, sequi illum similque iusto maiores!",
+    "rol": "actriz"
+  },
+  {
+    "id": 2,
+    "nickname": "Juli",
+    "nombre": "Julieta",
+    "apellido": "n/s",
+    "profile_pic": "../img/juli_profile.png",
+    "resume_text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus numquam provident esse ab minus in. Porro est maxime inventore necessitatibus, vitae rem corrupti, sequi illum similque iusto maiores!",
+    "rol": "actriz"
+  },
+  {
+    "id": 3,
+    "nickname": "Lola",
+    "nombre": "Lola",
+    "apellido": "n/s",
+    "profile_pic": "../img/lola_profile.png",
+    "resume_text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus numquam provident esse ab minus in. Porro est maxime inventore necessitatibus, vitae rem corrupti, sequi illum similque iusto maiores!",
+    "rol": "actriz"
+  },
+  {
+    "id": 4,
+    "nickname": "Cristi",
+    "nombre": "Cristina",
+    "apellido": "n/s",
+    "profile_pic": "../img/cristi_profile.png",
+    "resume_text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus numquam provident esse ab minus in. Porro est maxime inventore necessitatibus, vitae rem corrupti, sequi illum similque iusto maiores!",
+    "rol": "actriz"
+  },
+  {
+    "id": 5,
+    "nickname": "Hilén",
+    "nombre": "Hilén",
+    "apellido": "n/s",
+    "profile_pic": "../img/hilen_profile.png",
+    "resume_text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus numquam provident esse ab minus in. Porro est maxime inventore necessitatibus, vitae rem corrupti, sequi illum similque iusto maiores!",
+    "rol": "actriz"
+  },
+  {
+    "id": 6,
+    "nickname": "Marilú",
+    "nombre": "Marilú",
+    "apellido": "n/s",
+    "profile_pic": "../img/marilu_profile.png",
+    "resume_text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus numquam provident esse ab minus in. Porro est maxime inventore necessitatibus, vitae rem corrupti, sequi illum similque iusto maiores!",
+    "rol": "actriz"
+  },
+  {
+    "id": 6,
+    "nickname": "Jannet",
+    "nombre": "Jannet",
+    "apellido": "n/s",
+    "profile_pic": "../img/no-foto_profile.png",
+    "resume_text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus numquam provident esse ab minus in. Porro est maxime inventore necessitatibus, vitae rem corrupti, sequi illum similque iusto maiores!",
+    "rol": "actriz"
+  },
+  {
+    "id": 7,
+    "nickname": "Agus",
+    "nombre": "Agustina",
+    "apellido": "Morales López",
+    "profile_pic": "../img/no-foto_profile.png",
+    "resume_text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus numquam provident esse ab minus in. Porro est maxime inventore necessitatibus, vitae rem corrupti, sequi illum similque iusto maiores!",
+    "rol": "staff"
+  },
+  {
+    "id": 8,
+    "nickname": "Darío",
+    "nombre": "Darío",
+    "apellido": "n/s",
+    "profile_pic": "../img/no-foto_profile.png",
+    "resume_text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus numquam provident esse ab minus in. Porro est maxime inventore necessitatibus, vitae rem corrupti, sequi illum similque iusto maiores!",
+    "rol": "staff"
+  },
+  {
+    "id": 9,
+    "nickname": "Alguien más",
+    "nombre": "-",
+    "apellido": "-",
+    "profile_pic": "../img/no-foto_profile.png",
+    "resume_text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus numquam provident esse ab minus in. Porro est maxime inventore necessitatibus, vitae rem corrupti, sequi illum similque iusto maiores!",
+    "rol": "staff"
+  }
+]

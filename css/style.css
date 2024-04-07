@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "uppereastside";
+  src: url("UpperEastSide-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   background: linear-gradient(to bottom right, #E90064, #FAA916);
 }
@@ -45,6 +51,9 @@ body::-webkit-scrollbar {
   margin-left: auto;
   float: right;
 }
+.navNav .navbar-collapse ul .dropdown:hover .dropdown-menu {
+  display: block;
+}
 .navNav .navbar-collapse ul .nav-item {
   font-family: "Francois One", sans-serif;
 }
@@ -68,6 +77,14 @@ body::-webkit-scrollbar {
 }
 .navNav .navbar-collapse ul .nav-item .dropdown-menu .dropdown-divider {
   border: 0.1px solid whitesmoke;
+}
+
+.titulo_page {
+  font-family: "Archivo Black", sans-serif;
+  padding-top: 20px;
+  text-align: center;
+  color: rgb(206, 206, 206);
+  text-shadow: 1px 1px 3px black;
 }
 
 .contactoMain .contactoH1 {
@@ -206,7 +223,7 @@ footer .social .yt i:hover {
   text-align: center;
   padding-top: 10px;
   font-family: "Protest Strike", sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .indexMain .divBanner .epigBan .descBan {
   display: flex;
@@ -349,6 +366,180 @@ footer .social .yt i:hover {
   display: block;
   margin: auto;
   margin-bottom: 30px;
+}
+
+.mainElenco .cards_div {
+  border-radius: 10px;
+  width: 100vw;
+  align-items: center;
+  margin-top: 50px;
+  overflow: scroll;
+  scrollbar-width: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mainElenco .cards_div .flecha_izq {
+  display: flex;
+  margin-right: 95vw;
+  justify-content: left;
+  position: absolute;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+}
+.mainElenco .cards_div .flecha_izq:active {
+  transform: scale(1.2);
+}
+.mainElenco .cards_div .flecha_izq i {
+  color: rgb(216, 216, 216);
+  align-items: center;
+  font-size: 2rem;
+  transition: all 0.2s ease-out;
+  opacity: 0.3;
+}
+.mainElenco .cards_div .flecha_izq i:hover {
+  opacity: 1;
+}
+.mainElenco .cards_div .flecha_der {
+  display: flex;
+  margin-left: 95vw;
+  justify-content: right;
+  position: absolute;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+}
+.mainElenco .cards_div .flecha_der:active {
+  transform: scale(1.2);
+}
+.mainElenco .cards_div .flecha_der i {
+  color: rgb(216, 216, 216);
+  font-size: 2rem;
+  transition: all 0.2s ease-out;
+  opacity: 0.3;
+}
+.mainElenco .cards_div .flecha_der i:hover {
+  opacity: 1;
+}
+.mainElenco .cards_div .cardProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(27, 27, 27);
+  height: 300px;
+  padding-top: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+  transition: all 0.5s ease-in;
+}
+.mainElenco .cards_div .cardProfile:hover {
+  cursor: pointer;
+}
+.mainElenco .cards_div .cardProfile:hover .cp_front {
+  display: none;
+}
+.mainElenco .cards_div .cardProfile:hover .cp_overlay {
+  display: flex;
+  text-align: center;
+  font-family: "Protest Strike", sans-serif;
+  font-size: 1rem;
+  width: 250px;
+  padding: 25px;
+}
+.mainElenco .cards_div .cardProfile:active {
+  transform: scale(-5);
+}
+.mainElenco .cards_div .cardProfile .cp_front {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in;
+}
+.mainElenco .cards_div .cardProfile .cp_front .cp_profilePic {
+  display: flex;
+  width: 250px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 50%;
+}
+.mainElenco .cards_div .cardProfile .cp_front .cp_profileName {
+  font-size: 2rem;
+  color: rgb(206, 206, 206);
+  transition: all 0.5s ease-in;
+}
+.mainElenco .cards_div .cardProfile .cp_overlay {
+  display: none;
+  transition: all 0.5s ease-in;
+  color: rgb(206, 206, 206);
+}
+.mainElenco .cards_div_staff {
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+.mainElenco .cards_div_staff .cardProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(27, 27, 27);
+  height: 300px;
+  width: 250px;
+  padding-top: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+  transition: all 0.5s ease-in;
+}
+.mainElenco .cards_div_staff .cardProfile:hover {
+  cursor: pointer;
+}
+.mainElenco .cards_div_staff .cardProfile:hover .cp_front {
+  display: none;
+}
+.mainElenco .cards_div_staff .cardProfile:hover .cp_overlay {
+  display: flex;
+  text-align: center;
+  font-family: "Protest Strike", sans-serif;
+  font-size: 1rem;
+  width: 250px;
+  padding: 25px;
+}
+.mainElenco .cards_div_staff .cardProfile:active {
+  transform: scale(-5);
+}
+.mainElenco .cards_div_staff .cardProfile .cp_front {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in;
+}
+.mainElenco .cards_div_staff .cardProfile .cp_front .cp_profilePic {
+  display: flex;
+  width: 200px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 50%;
+}
+.mainElenco .cards_div_staff .cardProfile .cp_front .cp_profileName {
+  font-size: 2rem;
+  color: rgb(206, 206, 206);
+  transition: all 0.5s ease-in;
+}
+.mainElenco .cards_div_staff .cardProfile .cp_overlay {
+  display: none;
+  transition: all 0.5s ease-in;
+  color: rgb(206, 206, 206);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,176 @@
+.mainElenco {
+  .cards_div {
+    border-radius: 10px;
+    width: 100vw;
+    align-items: center;
+    margin-top: 50px;
+    overflow: scroll;
+    scrollbar-width: none;
+    // justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    .flecha_izq {
+      display: flex;
+      margin-right: 95vw;
+      justify-content: left;
+      position: absolute;
+      align-items: center;
+      border-radius: 50%;
+      border: none;
+      background-color: transparent;
+      &:active {
+        transform: scale(1.2);
+      }
+      i {
+        color: rgb(216, 216, 216);
+        align-items: center;
+        font-size: 2rem;
+        transition: all 0.2s ease-out;
+        opacity: 0.3;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+    .flecha_der {
+      display: flex;
+      margin-left: 95vw;
+      justify-content: right;
+      position: absolute;
+      align-items: center;
+      border-radius: 50%;
+      border: none;
+      background-color: transparent;
+      &:active {
+        transform: scale(1.2);
+      }
+      i {
+        color: rgb(216, 216, 216);
+        font-size: 2rem;
+        transition: all 0.2s ease-out;
+        opacity: 0.3;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+    .cardProfile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(27, 27, 27);
+      height: 300px;
+      padding-top: 20px;
+      margin-right: 40px;
+      margin-left: 40px;
+      margin-bottom: 30px;
+      border-top-left-radius: 70px;
+      border-top-right-radius: 70px;
+      transition: all 0.5s ease-in;
+      &:hover {
+        cursor: pointer;
+        .cp_front {
+          display: none;
+        }
+        .cp_overlay {
+          display: flex;
+          text-align: center;
+          font-family: $protest;
+          font-size: 1rem;
+          width: 250px;
+          padding: 25px;
+        }
+      }
+      &:active {
+        transform: scale(-5);
+      }
+      .cp_front {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.5s ease-in;
+        .cp_profilePic {
+          display: flex;
+          width: 250px;
+          padding-left: 25px;
+          padding-right: 25px;
+          border-radius: 50%;
+        }
+        .cp_profileName {
+          font-size: 2rem;
+          color: rgb(206, 206, 206);
+          transition: all 0.5s ease-in;
+        }
+      }
+      .cp_overlay {
+        display: none;
+        transition: all 0.5s ease-in;
+        color: rgb(206, 206, 206);
+      }
+    }
+  }
+  .cards_div_staff {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    .cardProfile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(27, 27, 27);
+      height: 300px;
+      width: 250px;
+      padding-top: 20px;
+      margin-right: 40px;
+      margin-left: 40px;
+      margin-bottom: 30px;
+      border-top-left-radius: 70px;
+      border-top-right-radius: 70px;
+      transition: all 0.5s ease-in;
+      &:hover {
+        cursor: pointer;
+        .cp_front {
+          display: none;
+        }
+        .cp_overlay {
+          display: flex;
+          text-align: center;
+          font-family: $protest;
+          font-size: 1rem;
+          width: 250px;
+          padding: 25px;
+        }
+      }
+      &:active {
+        transform: scale(-5);
+      }
+      .cp_front {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.5s ease-in;
+        .cp_profilePic {
+          display: flex;
+          width: 200px;
+          padding-left: 25px;
+          padding-right: 25px;
+          border-radius: 50%;
+        }
+        .cp_profileName {
+          font-size: 2rem;
+          color: rgb(206, 206, 206);
+          transition: all 0.5s ease-in;
+        }
+      }
+      .cp_overlay {
+        display: none;
+        transition: all 0.5s ease-in;
+        color: rgb(206, 206, 206);
+      }
+    }
+  }
+}
