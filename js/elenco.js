@@ -126,10 +126,3 @@ items.forEach((item) => {
     <a href="../html/elenco.html" > volver</a>`;
   });
 });
-
-// const cristi = document.querySelector("#4");
-// console.log(cristi);
-// cristi.addEventListener("click", () => {
-//   main.innerHTML = `<h1>Cristi</h1>
-//   <a href="../html/elenco.html" > volver</a>`;
-// });
