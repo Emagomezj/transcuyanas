@@ -601,6 +601,7 @@ footer .social .yt i:hover {
 }
 .mainElenco .sectFinal {
   display: flex;
+  margin-top: 50px;
   margin-bottom: 40px;
   justify-content: center;
   align-items: center;
