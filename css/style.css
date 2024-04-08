@@ -104,7 +104,7 @@ footer {
   vertical-align: bottom;
   align-items: center;
   justify-content: center;
-  color: #E90064;
+  color: #e90064;
   justify-content: space-around;
 }
 footer .footerBlock {
@@ -126,11 +126,12 @@ footer .footerBlock a img {
   display: flex;
   height: 45px;
   vertical-align: middle;
+  background-color: transparent;
 }
 footer .footerBlock a h4 {
   font-size: 2rem;
   text-decoration: none;
-  color: #E90064;
+  color: #e90064;
   transition: 0.2s all ease-in;
   font-family: "Protest Strike", sans-serif;
   vertical-align: middle;
@@ -139,7 +140,7 @@ footer .footerBlock ul {
   text-align: center;
 }
 footer .footerBlock ul h3 {
-  color: #E90064;
+  color: #e90064;
   font-family: "Francois One", sans-serif;
   text-align: center;
 }
@@ -152,7 +153,7 @@ footer .footerBlock ul .aFooter {
   transition: 0.2s all ease-in;
 }
 footer .footerBlock ul .aFooter:hover {
-  color: #E90064;
+  color: #e90064;
   font-weight: bold;
 }
 footer .social {
@@ -181,7 +182,7 @@ footer .social .ttk i {
 footer .social .ttk i:hover {
   font-size: 2.5rem;
   color: black;
-  text-shadow: -6px -6px 0 #00F2FE, -5px -5px 0 #00F2FE, -4px -4px 0 #00F2FE, -3px -3px 0 #00F2FE, -2px -2px 0 #00F2FE, -1px -1px 0 #00F2FE, 1px -1px 0 #FD0973, 2px -2px 0 #FD0973, 3px -3px 0 #FD0973, 4px -4px 0 #FD0973, 5px -5px 0 #FD0973, 6px -6px 0 #FD0973;
+  text-shadow: -6px -6px 0 #00f2fe, -5px -5px 0 #00f2fe, -4px -4px 0 #00f2fe, -3px -3px 0 #00f2fe, -2px -2px 0 #00f2fe, -1px -1px 0 #00f2fe, 1px -1px 0 #fd0973, 2px -2px 0 #fd0973, 3px -3px 0 #fd0973, 4px -4px 0 #fd0973, 5px -5px 0 #fd0973, 6px -6px 0 #fd0973;
 }
 footer .social .yt i {
   color: white;
@@ -540,6 +541,76 @@ footer .social .yt i:hover {
   display: none;
   transition: all 0.5s ease-in;
   color: rgb(206, 206, 206);
+}
+.mainElenco .divCabeceraProfile {
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.mainElenco .divCabeceraProfile .profileMainPic {
+  display: flex;
+  height: 300px;
+  border-radius: 50%;
+}
+.mainElenco .sectionImpar {
+  padding-left: 0px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainElenco .sectionImpar .imgImpar {
+  height: 400px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  justify-content: left;
+  margin-right: 30px;
+}
+.mainElenco .sectionImpar .cuerpoProfilePageImpar {
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  padding-right: 80px;
+}
+.mainElenco .sectionPar {
+  padding-right: 0px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainElenco .sectionPar .imgPar {
+  height: 400px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  justify-content: right;
+  margin-left: 30px;
+}
+.mainElenco .sectionPar .cuerpoProfilePagePar {
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  padding-left: 80px;
+}
+.mainElenco .sectFinal {
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.mainElenco .sectFinal .btn_regresar {
+  background-color: red;
+  color: white;
+  font-size: 1rem;
+  border-radius: 20px;
+  border-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

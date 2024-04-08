@@ -122,7 +122,32 @@ const items = document.querySelectorAll(".cardProfile");
 items.forEach((item) => {
   const id = item.id;
   item.addEventListener("click", () => {
-    main.innerHTML = `<h1>${data[id - 1].nickname}</h1>
-    <a href="../html/elenco.html" > volver</a>`;
+    main.innerHTML = `<div class="divCabeceraProfile container-fluid">
+    <img class="profileMainPic" src="${data[id - 1].profile_pic}" alt="" />
+    <h1 class="titulo_page">${data[id - 1].nickname}</h1>
+  </div>
+  <section class="container-fluid sectionImpar">
+    <div>
+      <img class="imgImpar" src="${data[id - 1].profile_pic}" alt="prueba" />
+    </div>
+    <div>
+      <p class="cuerpoProfilePageImpar">
+      ${data[id - 1].resume_text}
+      </p>
+    </div>
+  </section>
+  <section class="container-fluid sectionPar">
+    <div>
+      <p class="cuerpoProfilePagePar">
+      ${data[id - 1].resume_text}
+      </p>
+    </div>
+    <div>
+      <img class="imgPar" src="${data[id - 1].profile_pic}" alt="" />
+    </div>
+  </section>
+  <section class="sectFinal container-fluid">
+  <a href="./elenco.html"><button class="btn_regresar">Regresar a Elenco</button></a>
+  </section>`;
   });
 });
